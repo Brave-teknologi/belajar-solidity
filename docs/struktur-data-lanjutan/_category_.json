@@ -1,0 +1,8 @@
+{
+   "label": "5. Struktur Data Lanjutan",
+   "position": 8,
+   "link": {
+      "type": "generated-index",
+      "description": "Dalam Solidity, struktur data lanjutan seperti struct dan enum menyediakan cara yang lebih baik untuk mengatur dan mengelola data yang kompleks. Struct memungkinkan kamu untuk mendefinisikan tipe data custom, sementara enum memungkinkan kamu membuat value yang dapat di enumerasi. Di bab ini kita akan membahas konsep-konsep ini beserta contoh nya untuk mengilustrasikan penggunaannya."
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "label": "6. Alur Smart Contract",
+   "position": 9,
+   "link": {
+      "type": "generated-index",
+      "description": "Memahami alur deploy smart contract, mulai dari tahap coding hingga men-deploy nya ke Blockchain. Pada Bab ini kita akan membahas proses deploy smart contract sampai bisa melakukan interaksi."
+   }
+}
