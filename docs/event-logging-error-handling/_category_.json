@@ -1,0 +1,8 @@
+{
+   "label": "7. Event Logging dan Error Handling",
+   "position": 9,
+   "link": {
+      "type": "generated-index",
+      "description": "Event logging dan error handling adalah aspek penting dalam pemrograman Solidity, yang memastikan bahwa smart contract dapat menyampaikan informasi penting dan menangani situasi tak terduga dengan baik. Di bab ini kita akan membahas dasar-dasar event logging dan error handling, serta contoh praktis untuk mengilustrasikan penggunaannya."
+   }
+}

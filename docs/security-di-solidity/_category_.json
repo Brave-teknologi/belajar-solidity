@@ -1,0 +1,8 @@
+{
+   "label": "8. Security di Solidity",
+   "position": 10,
+   "link": {
+      "type": "generated-index",
+      "description": "Keamanan adalah perhatian utama dalam pengembangan smart contract karena sifat transaksi blockchain yang tidak dapat dibatalkan. Kerentanan dalam smart contract dapat menyebabkan kerugian finansial yang signifikan dan sekaligus merusak reputasi. Dalam bab ini, kita akan mengeksplorasi praktik terbaik keamanan yang krusial untuk menulis kontrak Solidity yang aman, mencakup kerentanan umum dan strategi untuk menguranginya."
+   }
+}
