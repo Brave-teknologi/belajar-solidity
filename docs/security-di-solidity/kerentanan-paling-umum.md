@@ -12,6 +12,8 @@ Serangan reentrancy terjadi ketika sebuah kontrak melakukan panggilan eksternal 
 
 Untuk penjelasan lebih detail, kamu bisa langsung ke sumber artikel berikut: [Reentrancy Attack in a Solidity Smart Contract](https://cryptomarketpool.com/reentrancy-attack-in-a-solidity-smart-contract/).
 
+![reentrancy](./img/1.png)
+
 ### Contoh Kontrak yang Rentan
 
 Kode Solidity berikut menunjukkan kontrak yang rentan terhadap serangan reentrancy. Masalah terjadi karena kontrak memperbarui statusnya hanya setelah melakukan panggilan eksternal.
