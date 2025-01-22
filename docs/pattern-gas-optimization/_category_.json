@@ -1,0 +1,8 @@
+{
+   "label": "15. Pattern Gas Optimization",
+   "position": 17,
+   "link": {
+      "type": "generated-index",
+      "description": "Dalam jaringan Ethereum, setiap transaksi membutuhkan biaya yang dikenal sebagai gas. Biaya gas ini dibayarkan kepada penambang sebagai kompensasi untuk memproses dan memvalidasi transaksi. Jumlah gas yang diperlukan tergantung pada kompleksitas transaksi. Biaya gas dapat berdampak besar pada kegunaan dan efektivitas biaya aplikasi terdesentralisasi (dApps). Sehingga memahami dan mengoptimalkan penggunaan gas sangat penting untuk menciptakan smart contract yang efisien"
+   }
+}
