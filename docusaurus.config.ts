@@ -6,8 +6,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
    title: "Mastering Solidity",
-   tagline: "Dinosaurs are cool",
-   favicon: "img/favicon.ico",
+   tagline: "Belajar Solidity dari dasar hingga mahir",
+   favicon: "img/sol.png",
 
    // Set the production url of your site here
    url: "https://your-docusaurus-site.example.com",
@@ -17,8 +17,8 @@ const config: Config = {
 
    // GitHub pages deployment config.
    // If you aren't using GitHub pages, you don't need these.
-   organizationName: "facebook", // Usually your GitHub org/user name.
-   projectName: "docusaurus", // Usually your repo name.
+   organizationName: "Brave-teknologi", // Usually your GitHub org/user name.
+   projectName: "belajar-solidity", // Usually your repo name.
 
    onBrokenLinks: "throw",
    onBrokenMarkdownLinks: "warn",
@@ -41,21 +41,7 @@ const config: Config = {
                // Remove this to remove the "edit this page" links.
                editUrl:
                   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-            },
-            blog: {
-               showReadingTime: true,
-               feedOptions: {
-                  type: ["rss", "atom"],
-                  xslt: true,
-               },
-               // Please change this to your repo.
-               // Remove this to remove the "edit this page" links.
-               editUrl:
-                  "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-               // Useful options to enforce blogging best practices
-               onInlineTags: "warn",
-               onInlineAuthors: "warn",
-               onUntruncatedBlogPosts: "warn",
+               routeBasePath: "/",
             },
             theme: {
                customCss: "./src/css/custom.css",
@@ -74,12 +60,6 @@ const config: Config = {
             src: "img/sol.png",
          },
          items: [
-            {
-               type: "docSidebar",
-               sidebarId: "tutorialSidebar",
-               position: "left",
-               label: "Tutorial",
-            },
             { to: "/blog", label: "Blog", position: "left" },
             {
                href: "https://github.com/facebook/docusaurus",
@@ -92,21 +72,21 @@ const config: Config = {
          style: "dark",
          links: [
             {
-               title: "Docs",
+               title: "Legal",
                items: [
                   {
-                     label: "Tutorial",
-                     to: "/docs/intro",
+                     label: "Privacy",
+                     to: "/privacy",
+                  },
+                  {
+                     label: "Terms",
+                     to: "/terms",
                   },
                ],
             },
             {
-               title: "Community",
+               title: "Komunitas",
                items: [
-                  {
-                     label: "Stack Overflow",
-                     href: "https://stackoverflow.com/questions/tagged/docusaurus",
-                  },
                   {
                      label: "Discord",
                      href: "https://discordapp.com/invite/docusaurus",
@@ -118,7 +98,7 @@ const config: Config = {
                ],
             },
             {
-               title: "More",
+               title: "Lainnya",
                items: [
                   {
                      label: "Blog",
@@ -131,7 +111,7 @@ const config: Config = {
                ],
             },
          ],
-         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+         copyright: `Copyright © ${new Date().getFullYear()} Generasibelajar. Presented by Braveteknologi.`,
       },
       prism: {
          theme: prismThemes.github,
