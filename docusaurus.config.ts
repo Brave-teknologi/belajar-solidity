@@ -76,11 +76,11 @@ const config: Config = {
                items: [
                   {
                      label: "Privacy",
-                     to: "/privacy",
+                     to: "#",
                   },
                   {
                      label: "Terms",
-                     to: "/terms",
+                     to: "#",
                   },
                ],
             },
