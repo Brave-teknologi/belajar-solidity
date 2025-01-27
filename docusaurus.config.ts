@@ -72,6 +72,13 @@ const config: Config = {
             },
          ],
       },
+      algolia: {
+         appId: "78WDKJTVK0",
+         apiKey: "9f4766d229b34ee70544ebe9ab52bff1",
+         indexName: "ms_generasibelajar_com_78wdkjtvk0_pages",
+         searchPagePath: "search",
+         contextualSearch: true,
+      },
       footer: {
          style: "dark",
          links: [
