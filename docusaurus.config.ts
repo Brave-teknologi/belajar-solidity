@@ -72,6 +72,11 @@ const config: Config = {
             },
          ],
       },
+      algolia: {
+         appId: "CT3U9DBRZS",
+         apiKey: "1bdfd826e699f2b7bb82938dd2e66f4d",
+         indexName: "ms-generasibelajar",
+      },
       footer: {
          style: "dark",
          links: [
