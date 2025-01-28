@@ -85,11 +85,11 @@ const config: Config = {
                items: [
                   {
                      label: "Privacy",
-                     to: "#",
+                     to: "https://generasibelajar.com/privacy",
                   },
                   {
                      label: "Terms",
-                     to: "#",
+                     to: "https://generasibelajar.com/terms",
                   },
                ],
             },
@@ -102,7 +102,7 @@ const config: Config = {
                   },
                   {
                      label: "X",
-                     href: "https://x.com/docusaurus",
+                     href: "https://x.com/gen_belajar",
                   },
                ],
             },
